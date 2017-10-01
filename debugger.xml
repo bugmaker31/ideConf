@@ -76,6 +76,11 @@
       <option name="hideDebuggerOnProcessTermination" value="true" />
     </general>
     <debuggers>
+      <debugger id="groovy_debugger">
+        <configuration>
+          <option name="ENABLE_GROOVY_HOTSWAP" value="false" />
+        </configuration>
+      </debugger>
       <debugger id="kotlin_debugger">
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
