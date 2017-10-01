@@ -1,0 +1,66 @@
+<keymap version="1" name="Fred" parent="Eclipse">
+  <action id="CollapseAllRegions" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+  </action>
+  <action id="Compare.LastVersion">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="Diff.ApplyLeftSide">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Diff.ApplyRightSide">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDuplicateLines" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f1" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="GuiDesigner.Duplicate" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="ctrl f7" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="TogglePinnedMode">
+    <keyboard-shortcut first-keystroke="pause" />
+  </action>
+</keymap>

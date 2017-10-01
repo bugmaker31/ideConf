@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Declaration/Create field for parameter" />
+    <ignoreAction name="Java/Declaration/Split Declaration" />
+    <ignoreAction name="Java/Declaration/Add Javadoc" />
+  </component>
+</application>

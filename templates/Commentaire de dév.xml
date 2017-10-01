@@ -1,0 +1,9 @@
+<templateSet group="Commentaire de dév">
+  <template name="TreeMap" value="new TreeMap&lt;&gt;(); // TreeMap au lieu de HashMap pour trier, juste afin de faciliter le débogage." description="Explication de l'usage d'un TreeMap" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

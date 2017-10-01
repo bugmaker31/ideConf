@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://java.sun.com/xml/ns/jaxb" location="$USER_HOME$/.IdeaIC2017.2/system/extResources/bb0478df_bindingschema_2_0.xsd" />
+  </component>
+</application>

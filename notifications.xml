@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Localization and Internationalization" displayType="NONE" shouldLog="false" />
+    <notification groupId="System Health" displayType="STICKY_BALLOON" />
+  </component>
+</application>

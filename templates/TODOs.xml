@@ -1,0 +1,9 @@
+<templateSet group="TODOs">
+  <template name="todo" value="TODO $USER_TRIGRAMME$ $DATE_YYYY_MM$ $SELECTION$$END$" description="Inserts a TODO line" toReformat="false" toShortenFQNames="false">
+    <variable name="USER_TRIGRAMME" expression="&quot;FDA&quot;" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE_YYYY_MM" expression="date(&quot;yyyy/MM&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

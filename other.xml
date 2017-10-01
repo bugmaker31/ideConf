@@ -1,0 +1,121 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>unused</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="JavaFxSettings">
+    <option name="pathToSceneBuilder" value="C:/Pgms/SceneBuilder/SceneBuilder.exe" />
+    <option name="myPathToSceneBuilder" value="C:/Pgms/SceneBuilder/SceneBuilder.exe" />
+  </component>
+  <component name="RecentTaskRepositories">
+    <GitHub shared="false" url="https://github.com">
+      <option name="assignedIssuesOnly" value="false" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token>df9bdfcbdf98df9fdf93df9cdfcfdfccdf9ddfc8df9edfcedf99dfccdf99dfc9df9cdfc9dfc9dfcfdf9adfcbdfcfdfc9df92df9bdf9edf93dfc9df9bdf9ddf93dfcbdfc9df93dfcbdfcedf9cdfc8dfc9</token>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="repoAuthor" value="bugmaker31" />
+      <option name="repoName" value="planCharge" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="TYPE_COOK_DROP_CASTS" value="false" />
+    <option name="TYPE_COOK_PRESERVE_RAW_ARRAYS" value="false" />
+    <option name="TYPE_COOK_PRODUCE_WILDCARDS" value="true" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+    <option name="RENAME_INHERITORS" value="false" />
+    <option name="RENAME_VARIABLES" value="false" />
+    <option name="RENAME_TESTS" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="file:///D:\Dvlpt\_MAAP\SVNRepoTestsCT" />
+        <option value="file:///D:\Dvlpt\_MAAP\SvnRepository" />
+        <option value="https://scm.forge.national.agri/dal/sial/proto/ct" />
+        <option value="https://scm.forge.national.agri/dal/sial/proto" />
+        <option value="https://scm.forge.national.agri/dal/sial/" />
+        <option value="https://scm.forge.national.agri/dal/" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="file:///D:\Dvlpt\_MAAP\SVNRepoTestsCT" />
+        <option value="file:///D:\Dvlpt\_MAAP\SvnRepository" />
+        <option value="https://scm.forge.national.agri/dal/sial/proto/ct" />
+        <option value="https://scm.forge.national.agri/dal/sial/proto" />
+        <option value="https://scm.forge.national.agri/dal/sial/" />
+        <option value="https://scm.forge.national.agri/dal/" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="UISettings">
+    <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="21" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1010" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SHOW_TOOL_WINDOW_NUMBERS" value="false" />
+  </component>
+</application>
