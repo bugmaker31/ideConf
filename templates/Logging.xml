@@ -1,8 +1,8 @@
 <templateSet group="Logging">
-  <template name="logger" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASSNAME$.class);$END$" description="Declare and instanciate a Slf4J logger." toReformat="false" toShortenFQNames="true" useStaticImport="true">
+  <template name="LOGGER" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASSNAME$.class);$END$" description="Declare and instanciate a Slf4J logger." toReformat="false" toShortenFQNames="true" useStaticImport="true">
     <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
 </templateSet>
