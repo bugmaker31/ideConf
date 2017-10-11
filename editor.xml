@@ -1,8 +1,4 @@
 <application>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="13" />
-    <option name="FONT_SCALE" value="1.0833334" />
-  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -11,17 +7,18 @@
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="REFRAIN_FROM_SCROLLING" value="true" />
   </component>
   <component name="InspectionProfileManager">
-    <info color="be4311">
-      <option name="BACKGROUND" value="524c2b" />
-      <option name="FONT_TYPE" value="1" />
-      <option name="ERROR_STRIPE_COLOR" value="be4311" />
+    <info color="ff4005">
+      <option name="FOREGROUND" value="ffffff" />
+      <option name="BACKGROUND" value="ff4005" />
+      <option name="ERROR_STRIPE_COLOR" value="ff4005" />
       <option name="myName" value="Alert" />
       <option name="myVal" value="50" />
       <option name="myExternalName" value="Alert" />
       <option name="myDefaultAttributes">
-        <option name="ERROR_STRIPE_COLOR" value="be4311" />
+        <option name="ERROR_STRIPE_COLOR" value="ff4005" />
       </option>
     </info>
     <list size="8">
@@ -35,13 +32,21 @@
       <item index="7" class="java.lang.String" itemvalue="ERROR" />
     </list>
   </component>
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
   <component name="TodoConfiguration">
-    <pattern icon="important" case-sensitive="true" pattern="FIXME" />
-    <pattern case-sensitive="true" pattern="TODO" />
-    <filter name="FIXMEs">
+    <pattern pattern="\btodo\b.*" />
+    <pattern icon="important" useCustomColors="true" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="ff6e11" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <filter name="TODOs">
       <pattern index="0" />
     </filter>
-    <filter name="TODOs">
+    <filter name="FIXMEs">
       <pattern index="1" />
     </filter>
   </component>
