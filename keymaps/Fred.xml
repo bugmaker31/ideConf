@@ -1,27 +1,15 @@
 <keymap version="1" name="Fred" parent="Eclipse">
   <action id="CollapseAllRegions" />
   <action id="CommentByBlockComment">
-    <keyboard-shortcut first-keystroke="shift ctrl slash" />
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
   </action>
-  <action id="Compare.LastVersion">
-    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
-  <action id="CompareTwoFiles" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
-  <action id="Diff.ApplyLeftSide">
-    <keyboard-shortcut first-keystroke="alt right" />
-  </action>
-  <action id="Diff.ApplyRightSide">
-    <keyboard-shortcut first-keystroke="alt left" />
-  </action>
-  <action id="Diff.ShowDiff">
-    <keyboard-shortcut first-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="shift ctrl d" />
-  </action>
-  <action id="Diff.ShowSettingsPopup" />
+  <action id="CopyPaths" />
   <action id="EditorDuplicateLines" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -30,20 +18,18 @@
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f1" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="GuiDesigner.Duplicate" />
-  <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="ctrl f7" />
-    <keyboard-shortcut first-keystroke="alt down" />
+  <action id="GuiDesigner.Duplicate">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="PreviousDiff">
-    <keyboard-shortcut first-keystroke="shift f7" />
-    <keyboard-shortcut first-keystroke="alt up" />
-  </action>
+  <action id="Images.Editor.ActualSize" />
+  <action id="MethodHierarchy" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
