@@ -429,7 +429,7 @@
   <inspection_tool class="InstanceMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="3" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_maxLength" value="50" />
   </inspection_tool>
   <inspection_tool class="InstanceVariableInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_ignorePrimitives" value="false" />
