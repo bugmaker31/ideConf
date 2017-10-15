@@ -166,6 +166,9 @@
           <option name="QUALIFIED_NAME" value="javafx.scene.control.TableView" />
           <option name="AppendDefault" value="true" />
           <ChildrenExpression Name="">
+            <TextWithImports text="getSkin()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+          <ChildrenExpression Name="">
             <TextWithImports text="getId()&#13;&#13;JAVA" type="expression" />
           </ChildrenExpression>
           <ChildrenExpression Name="">
