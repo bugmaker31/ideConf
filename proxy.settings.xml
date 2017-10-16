@@ -7,6 +7,6 @@
     <option name="KEEP_PROXY_PASSWORD" value="true" />
     <option name="PROXY_EXCEPTIONS" value="localhost, 127.0.0.1, *.agri, *.agriculture, 10.*" />
     <option name="USE_PAC_URL" value="true" />
-    <option name="PAC_URL" value="http://conf.proxy.national.agri/" />
+    <option name="PAC_URL" value="http://conf.proxy.national.agri/?sf" />
   </component>
 </application>
