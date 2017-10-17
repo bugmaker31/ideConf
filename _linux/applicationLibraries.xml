@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="LibreOffice">
+      <CLASSES>
+        <root url="file:///usr/lib/libreoffice/program" />
+        <root url="file:///usr/lib/libreoffice/program/classes" />
+      </CLASSES>
+      <JAVADOC />
+      <NATIVE>
+        <root url="file:///usr/lib/libreoffice/program" />
+      </NATIVE>
+      <SOURCES />
+      <jarDirectory url="file:///usr/lib/libreoffice/program/classes" recursive="false" />
+    </library>
+  </component>
+</application>
