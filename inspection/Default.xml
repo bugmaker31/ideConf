@@ -482,7 +482,6 @@
   <inspection_tool class="JUnit5Converter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnitDatapoint" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnitRule" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="JavaFxEventHandler" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="JavaFxUnresolvedFxIdReference" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="JavaLangImport" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JavadocHtmlLint" enabled="true" level="WARNING" enabled_by_default="true" />
