@@ -3,5 +3,6 @@
     <ignoreAction name="Java/Declaration/Create field for parameter" />
     <ignoreAction name="Java/Declaration/Split Declaration" />
     <ignoreAction name="Java/Declaration/Add Javadoc" />
+    <ignoreAction name="Java/Declaration/Generate overloaded method with default parameter values" />
   </component>
 </application>
