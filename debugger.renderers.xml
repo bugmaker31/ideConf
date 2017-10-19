@@ -103,9 +103,6 @@
         <Renderer ID="EnumerationChildrenRenderer" role="children">
           <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.model.charge.PlanChargeBean" />
           <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="planificationsBeans&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
@@ -169,6 +166,9 @@
           <option name="QUALIFIED_NAME" value="javafx.scene.control.TableView" />
           <option name="AppendDefault" value="true" />
           <ChildrenExpression Name="">
+            <TextWithImports text="getSkin()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+          <ChildrenExpression Name="">
             <TextWithImports text="getId()&#13;&#13;JAVA" type="expression" />
           </ChildrenExpression>
           <ChildrenExpression Name="">
@@ -201,21 +201,6 @@
         <Renderer ID="EnumerationChildrenRenderer" role="children">
           <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.view.PlanificationChargeCell" />
           <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="isFirstRun&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="">
-            <TextWithImports text="getTableRow().getItem()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="">
-            <TextWithImports text="getTableRow()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="">
-            <TextWithImports text="((ReadOnlyIntegerWrapper) index).value&#13;javafx.beans.property.ReadOnlyIntegerWrapper&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="">
-            <TextWithImports text="((SimpleObjectProperty) item).value&#13;javafx.beans.property.SimpleObjectProperty&#13;JAVA" type="expression" />
-          </ChildrenExpression>
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">

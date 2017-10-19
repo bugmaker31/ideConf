@@ -290,6 +290,7 @@
   <inspection_tool class="EmptyInitializer" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="EmptyStatementBody" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_reportEmptyBlocks" value="true" />
+    <option name="commentsAreContent" value="true" />
   </inspection_tool>
   <inspection_tool class="EmptySynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EnumSwitchStatementWhichMissesCases" enabled="true" level="WARNING" enabled_by_default="true">
@@ -366,14 +367,15 @@
   <inspection_tool class="HardCodedStringLiteral" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreForAssertStatements" value="true" />
     <option name="ignoreForExceptionConstructors" value="true" />
-    <option name="ignoreForSpecifiedExceptionConstructors" value="" />
+    <option name="ignoreForSpecifiedExceptionConstructors" value="java.lang.Exception" />
     <option name="ignoreForJUnitAsserts" value="true" />
     <option name="ignoreForClassReferences" value="true" />
     <option name="ignoreForPropertyKeyReferences" value="true" />
     <option name="ignoreForNonAlpha" value="true" />
-    <option name="ignoreAssignedToConstants" value="false" />
-    <option name="ignoreToString" value="false" />
+    <option name="ignoreAssignedToConstants" value="true" />
+    <option name="ignoreToString" value="true" />
     <option name="nonNlsCommentPattern" value="NON-NLS" />
+    <option name="ignoreForEnumConstant" value="true" />
   </inspection_tool>
   <inspection_tool class="HardcodedFileSeparators" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_recognizeExampleMediaType" value="false" />
@@ -427,7 +429,7 @@
   <inspection_tool class="InstanceMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="3" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_maxLength" value="50" />
   </inspection_tool>
   <inspection_tool class="InstanceVariableInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_ignorePrimitives" value="false" />
@@ -480,7 +482,6 @@
   <inspection_tool class="JUnit5Converter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnitDatapoint" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnitRule" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="JavaFxEventHandler" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="JavaFxUnresolvedFxIdReference" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="JavaLangImport" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JavadocHtmlLint" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -712,7 +713,7 @@
     <option name="m_limit" value="6" />
   </inspection_tool>
   <inspection_tool class="OverlyComplexBooleanExpression" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_limit" value="3" />
+    <option name="m_limit" value="4" />
     <option name="m_ignorePureConjunctionsDisjunctions" value="true" />
   </inspection_tool>
   <inspection_tool class="OverlyLongLambda" enabled="true" level="WARNING" enabled_by_default="true">
