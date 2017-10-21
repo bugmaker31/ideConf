@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Production Files" />
+    <option name="FILE_MASK" value="*.fxml" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -18,9 +19,13 @@
       <mask>*.jav</mask>
       <mask>*.ja</mask>
       <mask>*.j</mask>
-      <mask>*.</mask>
-      <mask>*.po</mask>
       <mask>*.pom</mask>
+      <mask>*.po</mask>
+      <mask>*.p</mask>
+      <mask>*.</mask>
+      <mask>*.f</mask>
+      <mask>*.fx</mask>
+      <mask>*.fxml</mask>
     </recentFileMasks>
   </component>
 </application>
