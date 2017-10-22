@@ -69,6 +69,7 @@
   </component>
   <component name="XDebuggerSettings">
     <data-views>
+      <option name="showLibraryStackFrames" value="false" />
       <option name="valueLookupDelay" value="100" />
     </data-views>
     <general>
