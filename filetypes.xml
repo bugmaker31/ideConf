@@ -4,8 +4,9 @@
       <mapping ext="ods" type="Native" />
       <mapping pattern="jaxb-bindings" type="PLAIN_TEXT" />
       <mapping pattern="WorkProgressView" type="PLAIN_TEXT" />
-      <mapping pattern="i18n-tag" type="PLAIN_TEXT" />
       <mapping pattern="mvnw" type="PLAIN_TEXT" />
+      <mapping pattern="i18n-tag" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
