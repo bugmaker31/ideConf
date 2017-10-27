@@ -201,6 +201,9 @@
         <Renderer ID="EnumerationChildrenRenderer" role="children">
           <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.view.PlanificationChargeCell" />
           <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="tableView&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
