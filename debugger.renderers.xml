@@ -28,6 +28,18 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="fr.gouv.agriculture.dal.ct.planCharge.metier.dto.PlanificationsDTO" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.metier.dto.PlanificationsDTO" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.metier.dto.PlanificationsDTO" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="tache(2092)&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.controller.ApplicationController" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.controller.ApplicationController" />
