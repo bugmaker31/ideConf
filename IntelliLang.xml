@@ -1,9 +1,8 @@
 <application>
   <component name="LanguageInjectionConfiguration">
-    <option name="INSTRUMENTATION" value="ASSERT" />
-    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
-    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
-    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
-    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="JAVA" injector-id="xml">
+      <display-name>StringConverter/@value</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("value")).withNamespace(string().equalTo("http://javafx.com/fxml/1")).withParent(xmlTag().withLocalName(string().equalTo("StringConverter")).withNamespace(string().equalTo("http://javafx.com/fxml")))]]></place>
+    </injection>
   </component>
 </application>
