@@ -28,35 +28,14 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="javafx.scene.control.MenuItem" />
+        <option name="NAME" value="fr.gouv.agriculture.dal.ct.planCharge.metier.dto.PlanificationsDTO" />
         <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="javafx.scene.control.MenuItem" />
+        <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.metier.dto.PlanificationsDTO" />
         <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="javafx.scene.control.MenuItem" />
+          <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.metier.dto.PlanificationsDTO" />
           <option name="AppendDefault" value="true" />
           <ChildrenExpression Name="">
-            <TextWithImports text="text&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="javafx.scene.control.Control$3" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="javafx.scene.control.Control$3" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="javafx.scene.control.Control$3" />
-          <option name="AppendDefault" value="true" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.view.CalendrierNbrsDemisJoursParRessourceCell" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.view.CalendrierNbrsDemisJoursParRessourceCell" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.view.CalendrierNbrsDemisJoursParRessourceCell" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="tableView&#13;&#13;JAVA" type="expression" />
+            <TextWithImports text="tache(334)&#13;&#13;JAVA" type="expression" />
           </ChildrenExpression>
         </Renderer>
       </Renderer>
@@ -234,6 +213,9 @@
         <Renderer ID="EnumerationChildrenRenderer" role="children">
           <option name="QUALIFIED_NAME" value="fr.gouv.agriculture.dal.ct.planCharge.ihm.view.PlanificationChargeCell" />
           <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="tableView&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
