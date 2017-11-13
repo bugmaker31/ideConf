@@ -3,12 +3,9 @@
     <option name="customScope" value="Project Production Files" />
     <option name="defaultScopeName" value="Project Production Files" />
     <option name="localCaseSensitive" value="true" />
-    <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Production Files" />
     <recentFileMasks>
-      <mask>*.properties</mask>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
@@ -27,6 +24,11 @@
       <mask>*.f</mask>
       <mask>*.fx</mask>
       <mask>*.fxml</mask>
+      <mask>e</mask>
+      <mask>en</mask>
+      <mask>env</mask>
+      <mask>*</mask>
+      <mask>*.properties</mask>
     </recentFileMasks>
   </component>
 </application>
