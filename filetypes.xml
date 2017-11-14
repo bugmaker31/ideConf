@@ -1,11 +1,21 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="ods" type="Native" />
       <mapping pattern="jaxb-bindings" type="PLAIN_TEXT" />
       <mapping pattern="WorkProgressView" type="PLAIN_TEXT" />
-      <mapping pattern="i18n-tag" type="PLAIN_TEXT" />
       <mapping pattern="mvnw" type="PLAIN_TEXT" />
+      <mapping pattern="i18n-tag" type="PLAIN_TEXT" />
       <mapping ext="bss" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
