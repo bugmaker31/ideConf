@@ -44,6 +44,7 @@
   <inspection_tool class="AssertMessageNotString" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssertWithSideEffects" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="AssertsWithoutMessages" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AssignmentOrReturnOfFieldWithMutableType" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="AssignmentToCatchBlockParameter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssignmentToCollectionFieldFromParameter" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignorePrivateMethods" value="true" />
@@ -88,6 +89,7 @@
     </option>
   </inspection_tool>
   <inspection_tool class="BadOddness" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="BashGloballyRegisteredVariable" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="BeforeClassOrAfterClassIsPublicStaticVoidNoArg" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BeforeOrAfterIsPublicVoidNoArg" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BigDecimalEquals" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -101,7 +103,6 @@
   </inspection_tool>
   <inspection_tool class="BooleanParameter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="CachedNumberConstructorCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CallToNativeMethodWhileLocked" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CallToSimpleGetterInClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreGetterCallsOnOtherObjects" value="true" />
@@ -116,6 +117,7 @@
   <inspection_tool class="CastConflictsWithInstanceof" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="CastThatLosesPrecision" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreIntegerCharCasts" value="false" />
+    <option name="ignoreOverflowingByteCasts" value="false" />
   </inspection_tool>
   <inspection_tool class="CastToIncompatibleInterface" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="ChainedEquality" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -192,7 +194,6 @@
   <inspection_tool class="CloneableImplementsClone" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreCloneableDueToInheritance" value="false" />
   </inspection_tool>
-  <inspection_tool class="CollectionAddAllCanBeReplacedWithConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CollectionAddedToSelf" enabled="true" level="Alert" enabled_by_default="true" />
   <inspection_tool class="CollectionContainsUrl" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CollectionsMustHaveInitialCapacity" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -264,7 +265,7 @@
   <inspection_tool class="DriverManagerGetConnection" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DuplicateBooleanBranch" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DuplicateCondition" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreMethodCalls" value="true" />
+    <option name="ignoreSideEffectConditions" value="true" />
   </inspection_tool>
   <inspection_tool class="DuplicatePropertyInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="CURRENT_FILE" value="true" />
@@ -621,7 +622,6 @@
   </inspection_tool>
   <inspection_tool class="NewExceptionWithoutArguments" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NewStringBufferWithCharArgument" enabled="true" level="Alert" enabled_by_default="true" />
-  <inspection_tool class="NonAtomicOperationOnVolatileField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonBooleanMethodNameMayNotStartWithQuestion" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="questionString" value="are,can,contains,could,endsWith,equals,has,is,matches,must,put,remove,shall,should,startsWith,was,were,will,would" />
     <option name="ignoreBooleanMethods" value="false" />
