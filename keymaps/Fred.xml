@@ -23,6 +23,7 @@
   </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDuplicateLines" />
+  <action id="EditorSplitLine" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -63,4 +64,5 @@
   <action id="TogglePinnedMode">
     <keyboard-shortcut first-keystroke="pause" />
   </action>
+  <action id="ViewSource" />
 </keymap>
