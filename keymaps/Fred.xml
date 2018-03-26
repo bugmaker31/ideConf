@@ -46,6 +46,9 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
