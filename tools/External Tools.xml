@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="chmod" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="false">
-    <exec>
-      <option name="COMMAND" value="chmod" />
-      <option name="PARAMETERS" value="u+x deploy_db.sh" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
-    </exec>
-  </tool>
-</toolSet>
